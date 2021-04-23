@@ -44,7 +44,30 @@ The school needs to count how many of its future students want to learn Java. To
 
 Create a static method called *countStudents*, which receives an array containing the languages chosen by the candidates. Return the number of candidates who have chosen Java, regardless of how they wrote it (upper/lower case).
 
-### 4. Testing
+### 4. Factorial (Recursivity)
+
+Create a recursive method that computes a factorial :
+
+	0! = 1
+	1! = 1
+	2! = 1 x 2
+	3! = 1 x 2 x 3
+	4! = 1 x 2 x 3 x 4
+
+### 5. BlackJack (Bonus)
+
+Write a function that takes in parameter the hand of a player and the hand of the bank, then returns the winner of the game.
+
+Rules : If the player or the bank has more than 21, he or it loses the game.
+The player wins if he has more than the bank and 21 or less. Same goes for the bank.
+In case of ex aeco, we will consider that the player wins.
+If the player has in hand an ace and a 10 points card (e.g. 1 + J or 1 + 10), he wins by BlackJack.
+
+Values of the cards : The heads are worth 10 ("J", "Q", and "K")
+The numbers are worth what's indicated (a 4-card is worth 4 points)
+For simplicity purpose, the ace (1) is worth 1 point except for the Blackjack case where it's considered to be worth 11.
+
+### 6. Testing
 
 Remember to test the methods you have developed. 
 
